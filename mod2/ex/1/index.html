@@ -5,27 +5,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Aula 1 - Mod2</title>
+    <title>Ex 1 - Mod2</title>
 </head>
 
 <body>
 
-    <div id="app">
-        <button onclick="mostraQuadrado()">Press</button>
-    </div>
-
-    <script>
-        var btnElement = document.getElementById('new');
-        var squaresElement = document.getElementById('squares');
-        
-        btnElement.onclick = function () {
-            var square = document.createElement('div');
-            square.style.width = '100px';
-            square.style.height = '100px';
-            square.style.backgroundColor = '#F00';
-            squaresElement.appendChild(square);
-        };
-    </script>
-</body>
-
+        <div id="app">
+            <button onclick="mostraQuadrado()">Press</button>
+        </div>
+    
+        <script>
+            var btnElement = document.getElementById('new');
+            var squaresElement = document.getElementById('squares');
+            
+            btnElement.onclick = function () {
+                var square = document.createElement('div');
+                square.style.width = '100px';
+                square.style.height = '100px';
+                square.style.backgroundColor = '#F00';
+                squaresElement.appendChild(square);
+            };
+        </script>
+    </body>
 </html>
