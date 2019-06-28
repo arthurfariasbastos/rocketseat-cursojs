@@ -1,7 +1,9 @@
-var listElement
-document.querySelector("#app ul");
-var inputElement
-document.querySelector("#app input");
+var listElement = document.querySelector("#app ul");
+var inputElement = document.querySelector("#app input");
+var buttonElement = document.querySelector("#app buttob");
 
-console.log(listElement);
-console.log(inputElement);
+var todos = [
+    "VisitarSogra",
+    "Fazer um beat hj",
+    "Deveres"
+]
