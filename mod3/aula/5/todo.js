@@ -19,9 +19,10 @@ function renderTodos() {
         linkElement.setAttribute('href', '#');
         var pos = todos.indexOf(todo);
         linkElement.setAttribute('onclick', 'deleteTodo(' + pos + ')');
-        var linkText = document.createTextNode(' -- Excluir');
+        var linkText = document.createTextNode('Excluir');
 
         todoElement.appendChild(todoText);
+        todoElement.appendChild(linkElement);
         listElement.appendChild(todoElement);
     }
 }
